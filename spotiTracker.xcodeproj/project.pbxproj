@@ -16,6 +16,7 @@
 		8A1CD0022851E8C4000F43A2 /* spotiTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CD0012851E8C4000F43A2 /* spotiTrackerTests.swift */; };
 		8A1CD00C2851E8C4000F43A2 /* spotiTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CD00B2851E8C4000F43A2 /* spotiTrackerUITests.swift */; };
 		8A1CD00E2851E8C4000F43A2 /* spotiTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1CD00D2851E8C4000F43A2 /* spotiTrackerUITestsLaunchTests.swift */; };
+		8AF22BDF2851FC110090F3BA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF22BDE2851FC110090F3BA /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8A1CD0072851E8C4000F43A2 /* spotiTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spotiTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A1CD00B2851E8C4000F43A2 /* spotiTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotiTrackerUITests.swift; sourceTree = "<group>"; };
 		8A1CD00D2851E8C4000F43A2 /* spotiTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotiTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8AF22BDE2851FC110090F3BA /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				8A1CCFEA2851E8C3000F43A2 /* spotiTrackerApp.swift */,
 				8A1CCFEC2851E8C3000F43A2 /* ContentView.swift */,
+				8AF22BDE2851FC110090F3BA /* WebView.swift */,
 				8A1CCFEE2851E8C4000F43A2 /* Assets.xcassets */,
 				8A1CCFF32851E8C4000F43A2 /* Persistence.swift */,
 				8A1CCFF82851E8C4000F43A2 /* spotiTracker.entitlements */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A1CCFF72851E8C4000F43A2 /* spotiTracker.xcdatamodeld in Sources */,
+				8AF22BDF2851FC110090F3BA /* WebView.swift in Sources */,
 				8A1CCFF42851E8C4000F43A2 /* Persistence.swift in Sources */,
 				8A1CCFED2851E8C3000F43A2 /* ContentView.swift in Sources */,
 				8A1CCFEB2851E8C3000F43A2 /* spotiTrackerApp.swift in Sources */,
